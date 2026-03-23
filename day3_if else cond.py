@@ -1,3 +1,4 @@
+code1:
 a=int(input("Enter the value of a:"))
 print("The value of a:")
 if(a<0):
@@ -17,3 +18,17 @@ elif(a>0):
       print("the number is greater than 50")
 else:
   print("The number is zero")
+
+code2:
+time=float(input("Enter the time:"))
+if(time<12.00):
+  print("Good Morning")
+elif(time<=24.00):
+  if(time<16.00):
+    print("Good afternoon")
+  elif(time<19.00):
+      print("Good Evening")
+  else:
+      print("Good Night")
+else:
+  print("NO time domain for this value")
